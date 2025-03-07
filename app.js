@@ -1,3 +1,4 @@
+// JS Assignments #01
 // chapter 1 
 // Question 1
 // alert("hello user")
@@ -123,3 +124,119 @@
  
 // document.write("Item price = "+shirtprice+ "<br>Quantity = "+quantity+ "<br>Shipping Cost = "+shippingcost+ "<br>Total Amount = "+total)
 
+
+
+// JS Assignment #02
+// q1 
+
+// var num = +prompt("Enter a number ")
+// if(num % 3 ===0){
+//     console.log(num +" is divisible by 3")
+// }else{
+//     console.log(num +" is not divisible by 3 ")
+// }
+
+// q2
+// var num = +prompt("Enter a number")
+// if(num % 2 ===0){
+//     console.log(num +" is an even number")
+// }else {
+//     console.log(num +" is an odd number")
+// }
+
+// q3
+
+// var age = +prompt("Enter your age")
+// if (age>18){
+//     console.log("Old enough")
+// }else{
+//     console.log("Too young")
+// }
+
+// q4
+
+// var username = prompt("Enter your name")
+// var myname = "Azmat"
+// if(username===myname){
+//     console.log("Hey Azmat, looks like we’ve got the same name good choice!")
+// }
+
+// q7
+
+// var num1= +prompt("Enter a number")
+// var num2= +prompt("Enter a number again")
+// var operator= prompt("Enter any operator +,-,*,/,%")
+
+// if(operator==='+'){
+//     console.log(num1 + num2)
+// }else if (operator==='-'){
+//     console.log(num1 - num2)
+// }else if (operator==='*'){
+//     console.log(num1 * num2)
+// }else if (operator==='/'){
+//     console.log(num1 / num2)
+// }else if (operator==='%'){
+//     console.log(num1 % num2)
+// }else{
+//     console.log("ERROR")
+// }
+
+
+// q8
+
+
+// q9
+
+// var year= prompt("Enter a year in YYYY format:")
+
+// if(year% 4===0 && year% 100!==0 || year%400===0){
+//     console.log(year +" is a leap year.")
+// }else{
+//     console.log(year +" is not a leap year.")
+// }
+
+// q10
+
+// var js="hellojs"
+// var password= prompt("Enter your password")
+// if(password===''){
+//     console.log("Please enter your password")
+// }
+// else if(js===password){
+//     console.log("Correct! The password you entered matches the original password")
+// }else{
+//     console.log("Incorrect password")
+// }
+
+// q11
+
+// var firstName = "Ali";
+// if (firstName === "Fahad") {
+//  document.write("Hello Fahad!");
+// }else{
+//     document.write("You're not Fahad")
+// }
+
+// q12
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }else{
+// greeting = "Good evening";
+// } 
+// console.log(greeting)
+
+// q13
+
+var num1= parseInt(prompt("Enter a number"))
+var num2= parseInt(prompt("Enter a number again"))
+
+if(num1>num2){
+    console.log(num1)
+}else if(num1<num2){
+    console.log(num2)
+}else if(num1===num2){
+    console.log("both numbers are equal to each other")
+}
