@@ -183,7 +183,16 @@
 
 
 // q8
-
+//  var time = prompt("Enter current time:")
+//  if(time >0000 && time < 1200){
+//     console.log("Good Morning")
+//  }else if(time >= 1200 && time < 1700){
+//     console.log("Good afternoon")
+//  }else if(time>= 1700 && time < 2100){
+//     console.log("Good evening")
+//  }else if(time >= 2100 && time <= 2359){
+//     console.log("Good night")
+//  }
 
 // q9
 
@@ -230,13 +239,104 @@
 
 // q13
 
-var num1= parseInt(prompt("Enter a number"))
-var num2= parseInt(prompt("Enter a number again"))
+// var num1= parseInt(prompt("Enter a number"))
+// var num2= parseInt(prompt("Enter a number again"))
 
-if(num1>num2){
-    console.log(num1)
-}else if(num1<num2){
-    console.log(num2)
-}else if(num1===num2){
-    console.log("both numbers are equal to each other")
-}
+// if(num1>num2){
+//     console.log(num1)
+// }else if(num1<num2){
+//     console.log(num2)
+// }else if(num1===num2){
+//     console.log("both numbers are equal to each other")
+// }
+
+// q14
+
+// var num = +prompt("Enter a number:");
+
+// if(num>0){
+//     console.log(num +" is a positive number")
+// }else if(num===0){
+//     console.log("the number is zero")
+// }else{
+//     console.log(num +" is a negative number")
+// }
+
+// q15
+
+// var currenttime = prompt("Enter the current time:")
+
+// if (currenttime >= 6 && currenttime <=9){
+//     console.log("Breakfast is served.")
+// }else if(currenttime >= 11 && currenttime <= 13){
+//     console.log("Time for lunch.")
+// }else if(currenttime >= 17 && currenttime <= 20){
+//     console.log("It's Dinner time.")
+// }else{
+//     console.log("Sorry, you will have to wait.")
+// }
+
+// q16
+// var value1 = "azher"
+// var value2 = 23
+// var value3 = true
+
+// console.log("Data type of "+ value1 + " is "+ typeof(value1))
+// console.log("Data type of "+ value2 + " is "+ typeof(value2))
+// console.log("Data type of "+ value3 + " is "+ typeof(value3))
+
+// q17
+// var char = prompt("Enter a character:")
+
+// if(char=== "a" || char === "e" || char=== "i" || char=== "o" || char=== "u"){
+//     console.log("true")
+// }else{
+//     console.log("false")
+// }
+
+// q18
+
+// console.log(10!==8)
+
+// q19
+// var month = +prompt("Enter a month number (1-12):")
+
+// JS Assignment #03
+
+// q3
+// function username(userfirstname , userlastname){
+//     console.log("Hello "+ userfirstname + userlastname  )
+// }
+// username("Azmat" ," Noor")
+
+// q4
+// function addi(){
+//     var num1;
+//     var num2;
+//     return (num1 + num2)
+// }
+// addi(+prompt("Enter a number:"),+prompt("Enter a number again:"))
+// var sum= addi();
+// console.log(sum)
+
+
+
+// var email = document.querySelector("#email")
+// var password = document.querySelector("#password") 
+
+// function login(){
+//     console.log(email.value)
+//     console.log(password.value)
+// }
+
+// var input = document.querySelector("#username")
+// var h1 = document.querySelector("#head")
+
+// function greetuser(){
+//     h1.innerHTML = "Hello "+ input.value
+// }
+
+// function remove(){
+//     h1.innerHTML= ''
+// }
+
